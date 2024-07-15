@@ -1,5 +1,5 @@
 # GPUCompatChecker
-Python script that checks if your GPU is good-to-go for Hackintosh
+Python script that checks if your GPU is good-to-go for Hackintosh </br>
 ALPHA RELEASE - ONLY AMD GPUs ARE INCLUDED CURRENTLY
 
 # Prerequisites
