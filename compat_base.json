@@ -1,0 +1,184 @@
+{
+    "GPUs": [
+    {
+        "model": "AMD Radeon RX 580",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 6600",
+        "macOS": "Monterey 12.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 6600XT",
+        "macOS": "Monterey 12.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 6800",
+        "macOS": "Big Sur (11.4) +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 6800 XT",
+        "macOS": "Big Sur (11.4) +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 6900XT",
+        "macOS": "Big Sur (11.4) +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 5500",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 5500XT",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 5600",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 5600XT",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 5700",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 5700XT",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon Pro W5500",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon Pro W5700",
+        "macOS": "Catalina 10.15.1 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon VII",
+        "macOS": "Mojave 10.14.5 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon Vega 64",
+        "macOS": "High Sierra 10.13 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon Vega 56",
+        "macOS": "High Sierra 10.13 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon Pro WX 9100",
+        "macOS": "High Sierra 10.13 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 480",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 470D",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 470",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 460",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 590",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 580X",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 570X",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 570",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 560X",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon RX 560",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon WX 7100",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon WX 5100",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon WX 4100",
+        "macOS": "Sierra 10.12 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon R9 390",
+        "macOS": "Yosemite 10.10 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon R9 290X",
+        "macOS": "Yosemite 10.10 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon R9 390X",
+        "macOS": "Yosemite 10.10 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon R9 290",
+        "macOS": "Yosemite 10.10 +",
+        "notes": "Fully supported natively."
+    },
+    {
+        "model": "AMD Radeon R7 240",
+        "macOS": "Yosemite 10.10 +",
+        "notes": "Fully supported natively."
+    }
+]
+}
