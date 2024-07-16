@@ -1,4 +1,4 @@
-p@echo off
+@echo off
 
 pip install py-cpuinfo psutil GPUtil setuptools
 
