@@ -22,7 +22,7 @@ def check_gpu_support(gpu_name, database):
 def get_system_hardware():
     cpu_info = cpuinfo.get_cpu_info()['brand_raw']
     gpus = GPUtil.getGPUs()
-    gpu_info = gpus[0].name if gpus else "HWChecker: No discrete GPU found."
+    gpu_info = gpus[0].name if gpus else "No discrete GPU found."
 
     integrated_gpu_info = None
     if platform.system() == "Windows":
@@ -40,7 +40,7 @@ def get_system_hardware():
             else:
                 print("No compatible integrated GPU found.")
         except Exception as e:
-            integrated_gpu_info = f"HWChecker: Error detecting Vega iGPU: {e}"
+            integrated_gpu_info = f"Error detecting Vega iGPU: {e}"
             print(integrated_gpu_info) 
     
 
@@ -86,7 +86,7 @@ def main():
         print(f"site for more details!!!")
         print("##########################################################################")
     else:
-        print("HWChecker: No Vega iGPU found.")
+        print("No Vega iGPU found.")
 
 if __name__ == "__main__":
     main()
