@@ -55,7 +55,7 @@ def main():
     database = load_compat_base(database_path)
 
     hardware = get_system_hardware()
-    print("=============================== HW CHECKER ===============================")
+    print("================================ HW CHECKER ================================")
     if is_amd_ryzen_processor(hardware['CPU']):
         print(f"AMD Ryzen CPU detected: {hardware['CPU']}")
         print(f"Your CPU is compatible with macOS 10.13 and up!")
