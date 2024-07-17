@@ -1,184 +1,904 @@
 {
     "GPUs": [
-    {
-        "model": "AMD Radeon RX 580",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 6600",
-        "macOS": "Monterey 12.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 6600XT",
-        "macOS": "Monterey 12.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 6800",
-        "macOS": "Big Sur (11.4) +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 6800 XT",
-        "macOS": "Big Sur (11.4) +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 6900XT",
-        "macOS": "Big Sur (11.4) +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 5500",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 5500XT",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 5600",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 5600XT",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 5700",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon RX 5700XT",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon Pro W5500",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon Pro W5700",
-        "macOS": "Catalina 10.15.1 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
-    },
-    {
-        "model": "AMD Radeon VII",
-        "macOS": "Mojave 10.14.5 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon Vega 64",
-        "macOS": "High Sierra 10.13 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon Vega 56",
-        "macOS": "High Sierra 10.13 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon Pro WX 9100",
-        "macOS": "High Sierra 10.13 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 480",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 470D",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 470",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 460",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 590",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 580X",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 570X",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 570",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 560X",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon RX 560",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon WX 7100",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen."
-    },
-    {
-        "model": "AMD Radeon WX 5100",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon WX 4100",
-        "macOS": "Sierra 10.12 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon R9 390",
-        "macOS": "Yosemite 10.10 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon R9 290X",
-        "macOS": "Yosemite 10.10 +",
-        "notes": "Kexts: Lilu, WhateverGreen, boot-args: -raddvi"
-    },
-    {
-        "model": "AMD Radeon R9 390X",
-        "macOS": "Yosemite 10.10 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon R9 290",
-        "macOS": "Yosemite 10.10 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    },
-    {
-        "model": "AMD Radeon R7 240",
-        "macOS": "Yosemite 10.10 +",
-        "notes": "Kexts: Lilu, WhateverGreen"
-    }
-]
+        {
+            "model": "AMD Radeon RX 580",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 580 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 580",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 580 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 580",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 6600",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6600 Series",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6600",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6600 Series",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 6600",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6600XT",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6600XT Series",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6600XT",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6600XT Series",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 6600XT",
+            "macOS": "Monterey 12.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6800",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6800 Series",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6800",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6800 Series",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 6800",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6800 XT",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6800 XT Series",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6800 XT",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6800 XT Series",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 6800 XT",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6900XT",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 6900XT Series",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6900XT",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 6900XT Series",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 6900XT",
+            "macOS": "Big Sur (11.4) +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5500",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5500 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5500",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5500 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 5500",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5500XT",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5500XT Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5500XT",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5500XT Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 5500XT",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5700",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5700 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5700",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5700 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 5700",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5700 XT",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon RX 5700 XT Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5700 XT",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon RX 5700 XT Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "RX 5700 XT",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon Pro W5500",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon Pro W5500 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon Pro W5500",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon Pro W5500 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Pro W5500",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon Pro W5700",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon Pro W5700 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon Pro W5700",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Radeon Pro W5700 Series",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "Pro W5700",
+            "macOS": "Catalina 10.15.1 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: agdpmod-pikera"
+        },
+        {
+            "model": "AMD Radeon VII",
+            "macOS": "Mojave 10.14.5 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon VII Series",
+            "macOS": "Mojave 10.14.5 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon VII",
+            "macOS": "Mojave 10.14.5 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon VII Series",
+            "macOS": "Mojave 10.14.5 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "VII",
+            "macOS": "Mojave 10.14.5 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Vega 64",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Vega 64 Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Vega 64",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Vega 64 Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Vega 64",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Vega 56",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Vega 56 Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Vega 56",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Vega 56 Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Vega 56",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Pro WX 9100",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Pro WX 9100 Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Pro WX 9100",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Pro WX 9100 Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Pro WX 9100",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 480",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 480 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 480",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 480 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 480",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 470D",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 470D Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 470D",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 470D Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 470D",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 470",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 470 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 470",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 470 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 470",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 460",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 460 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 460",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 460 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 460",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 590",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 590 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 590",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 590 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 590",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 580X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 580X Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 580X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 580X Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 580X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 570X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 570X Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 570X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 570X Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 570X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 570",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 570 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 570",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 570 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 570",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 560X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 560X Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 560X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 560X Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 560X",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 560",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX 560 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 560",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX 560 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX 560",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon WX 7100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon WX 7100 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon WX 7100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon WX 7100 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "WX 7100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon WX 5100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon WX 5100 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon WX 5100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon WX 5100 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "WX 5100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon WX 4100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon WX 4100 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon WX 4100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon WX 4100 Series",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "WX 4100",
+            "macOS": "Sierra 10.12 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R9 390",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R9 390 Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R9 390",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R9 390 Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "R9 390",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R9 290X",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: -raddvi"
+        },
+        {
+            "model": "AMD Radeon R9 290X Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: -raddvi"
+        },
+        {
+            "model": "Radeon R9 290X",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: -raddvi"
+        },
+        {
+            "model": "Radeon R9 290X Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: -raddvi"
+        },
+        {
+            "model": "R9 290X",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen, boot-args: -raddvi"
+        },
+        {
+            "model": "AMD Radeon R9 390X",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R9 390X Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R9 390X",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R9 390X Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "R9 390X",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R9 290",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R9 290 Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R9 290",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R9 290 Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "R9 290",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R7 240",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon R7 240 Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R7 240",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon R7 240 Series",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "R7 240",
+            "macOS": "Yosemite 10.10 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX Vega",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon RX Vega Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX Vega",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon RX Vega Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "RX Vega",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Vega Frontier",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "AMD Radeon Vega Frontier Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Vega Frontier",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Radeon Vega Frontier Series",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        },
+        {
+            "model": "Vega Frontier",
+            "macOS": "High Sierra 10.13 +",
+            "notes": "Kexts: Lilu, WhateverGreen"
+        }
+    ]
 }
