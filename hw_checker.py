@@ -31,7 +31,7 @@ def get_system_hardware():
             found_gpu = False
             for line in wmic_output.splitlines():
                 line = line.strip()
-                if "Radeon" in line:
+                if "Radeon(TM)" in line:
                     integrated_gpu_info = line
                     found_gpu = True
                     break
