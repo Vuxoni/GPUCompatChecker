@@ -55,13 +55,13 @@ def main():
     database = load_compat_base(database_path)
 
     hardware = get_system_hardware()
-    print("############################### HW CHECKER ###############################")
+    print("=============================== HW CHECKER ===============================")
     if is_amd_ryzen_processor(hardware['CPU']):
         print(f"AMD Ryzen CPU detected: {hardware['CPU']}")
         print(f"Your CPU is compatible with macOS 10.13 and up!")
     else:
         print(f"Non-AMD Ryzen CPU detected: {hardware['CPU']}")
-    print("##########################################################################")
+    print("============================================================================")
 
     dgpu_result = check_gpu_support(hardware["dGPU"], database)
     
@@ -80,11 +80,7 @@ def main():
     integrated_gpu_detected = hardware.get("iGPU (Vega)")
     if isinstance(integrated_gpu_detected, str) and "Radeon" in integrated_gpu_detected:
         print(f"iGPU detected: {hardware['iGPU (Vega)']} (All Vega iGPUs are supported, use NootedRed!)")
-        print("##########################################################################")
-        print(f"WARNING: Don't take this as granted, currently there is no way to check for actual")
-        print(f"Vega iGPU cause drivers are reporting generic Radeon GPU, check your manufacturer")
-        print(f"site for more details!!!")
-        print("##########################################################################")
+        print("============================================================================")
     else:
         print("No Vega iGPU found.")
 
