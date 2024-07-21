@@ -20,9 +20,13 @@ def check_gpu_support(gpu_name, database):
     return None
 
 def get_system_hardware():
+    try: 
     cpu_info = cpuinfo.get_cpu_info()['brand_raw']
     gpus = GPUtil.getGPUs()
+    except Exception as e:
+        gpu_info = f"Error detecting dGPU: {e}"
     gpu_info = gpus[0].name if gpus else "No discrete GPU found."
+    print(gpu_info)
 
     integrated_gpu_info = None
     if platform.system() == "Windows":
