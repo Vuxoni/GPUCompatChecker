@@ -21,7 +21,6 @@ def check_gpu_support(gpu_name, database):
 
 def get_system_hardware():
     try: 
-    cpu_info = cpuinfo.get_cpu_info()['brand_raw']
     gpus = GPUtil.getGPUs()
     except Exception as e:
         gpu_info = f"Error detecting dGPU: {e}"
