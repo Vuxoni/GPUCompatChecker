@@ -63,7 +63,11 @@ def main():
         print(f"Non-AMD Ryzen CPU detected: {hardware['CPU']}")
     print("============================================================================")
 
-    dgpu_result = check_gpu_support(hardware["dGPU"], database)
+    def check_gpu_support(gpu_model, database):
+    for entry in database['GPUs']:
+        if entry['model'] == gpu_model:
+            return entry
+    return None
     
    
 
