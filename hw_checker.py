@@ -21,7 +21,8 @@ def check_gpu_support(gpu_name, database):
 
 def get_system_hardware():
     try: 
-    gpus = GPUtil.getGPUs()
+        cpu_info = cpuinfo.get_cpu_info()['brand_raw']
+        gpus = GPUtil.getGPUs()
     except Exception as e:
         gpu_info = f"Error detecting dGPU: {e}"
     gpu_info = gpus[0].name if gpus else "No discrete GPU found."
@@ -67,9 +68,9 @@ def main():
     print("============================================================================")
 
     def check_gpu_support(gpu_model, database):
-    for entry in database['GPUs']:
-        if entry['model'] == gpu_model:
-            return entry
+        for entry in database['GPUs']:
+            if entry['model'] == gpu_model:
+                return entry
     return None
     
    
